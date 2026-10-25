@@ -12,7 +12,7 @@ A comprehensive, role-based Student & Course Management Portal built according t
 
 - **Hosted Application (Live Frontend):** [https://edutrack-mern-client.vercel.app](https://edutrack-mern-client.vercel.app) *(or your deployed Vercel/Render URL)*
 - **Hosted Backend API:** [https://edutrack-mern-api.onrender.com](https://edutrack-mern-api.onrender.com) *(or your deployed Render service URL)*
-- **GitHub Repository:** [https://github.com/your-username/edutrack-mern](https://github.com/your-username/edutrack-mern)
+- **GitHub Repository:** [https://github.com/Christy17-tech/edutrack-mern](https://github.com/Christy17-tech/edutrack-mern)
 
 ---
 
@@ -197,7 +197,7 @@ edutrack-mern/
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/your-username/edutrack-mern.git
+git clone https://github.com/Christy17-tech/edutrack-mern.git
 cd edutrack-mern
 ```
 
