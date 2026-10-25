@@ -7,7 +7,9 @@ const connectDB = require('../config/db');
 
 const seedData = async () => {
   try {
-    await connectDB();
+    if (mongoose.connection.readyState !== 1) {
+      await connectDB();
+    }
     console.log('[Seed] Clearing existing database collections...');
 
     await User.deleteMany();

@@ -16,7 +16,7 @@ const app = express();
 // Initialize Database
 connectDB().then(async () => {
   // If database is empty in development, automatically seed demo data
-  if (process.env.NODE_ENV !== 'production') {
+  if (process.env.NODE_ENV === 'development') {
     try {
       const User = require('./models/User');
       const count = await User.countDocuments();
