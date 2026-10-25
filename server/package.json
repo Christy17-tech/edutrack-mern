@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "db": "node src/scripts/start-db.js",
     "seed": "node src/seed/seed.js",
     "test": "node test/api.test.js"
   },
