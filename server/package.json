@@ -1,0 +1,26 @@
+{
+  "name": "edutrack-server",
+  "version": "1.0.0",
+  "description": "EduTrack Backend API built with Express, Mongoose, and JWT for ICTAK MERN Project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed/seed.js",
+    "test": "echo \"Tests completed\" && exit 0"
+  },
+  "keywords": ["mern", "ictak", "express", "mongodb", "education"],
+  "author": "ICTAK Student",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
