@@ -9,7 +9,13 @@
     "seed": "node src/seed/seed.js",
     "test": "echo \"Tests completed\" && exit 0"
   },
-  "keywords": ["mern", "ictak", "express", "mongodb", "education"],
+  "keywords": [
+    "mern",
+    "ictak",
+    "express",
+    "mongodb",
+    "education"
+  ],
   "author": "ICTAK Student",
   "license": "MIT",
   "dependencies": {
@@ -21,6 +27,7 @@
     "mongoose": "^9.11.4"
   },
   "devDependencies": {
+    "mongodb-memory-server": "^11.3.0",
     "nodemon": "^3.1.14"
   }
 }
